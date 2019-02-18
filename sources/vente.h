@@ -1,0 +1,3 @@
+int vente(int *argent, int *productionTotal, int *recolteSec, SDL_Surface* screen);
+int communication(char *texte, SDL_Surface* screen);
+int sechage(int *pointeurMap [NB_BLOCS_LARGEUR] [NB_BLOCS_HAUTEUR], int *pointeurNiveau [NB_BLOCS_LARGEUR] [NB_BLOCS_HAUTEUR] [NB_PARAMETRE], int *producTotal, int *producSec,int *mod, SDL_Rect *positionMario, SDL_Surface* screen, int *pointeurSaisons, int *pointeurMois, int *pointeurAnnee, clock_t *tempsDebut);
